@@ -64,7 +64,6 @@ end
 local function on_reload()
     -- what to do when we are ready, but also again on every reload.
     -- only do things that are safe to run over and over.
-    import 'reload.lua'
 end
 
 local function on_ready_late()
