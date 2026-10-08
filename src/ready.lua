@@ -7,7 +7,7 @@ modutil.mod.Path.Wrap("ApplyScyllaFightSpotlight", function (base, scylla, args)
             extra_siren_count = math.min(2, extra_siren_count)
         end
         for _ = 1, extra_siren_count do
-            game.wait(0.25)
+            game.wait(0.15)
             lastFlag = base(scylla, args)
             game.RemoveValue( args.Flags, lastFlag )
         end
