@@ -10,7 +10,7 @@ thread( ScyllaSpotlightPresentation, flagData, scylla )
 '''
 position = "after"
 payload = '''
---#region injected by MoreFeaturedSirens to track last applied featured status
+--#region injected by FeaturedSirens to track last applied featured status
 return flagData
 --#endregion
 '''
