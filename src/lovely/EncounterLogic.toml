@@ -1,0 +1,18 @@
+[manifest]
+version = "1.0.0"
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = "EncounterLogic.lua"
+pattern = '''
+thread( ScyllaSpotlightPresentation, flagData, scylla )
+'''
+position = "after"
+payload = '''
+--#region injected by FeaturedSirens to track last applied featured status
+return flagData
+--#endregion
+'''
+match_indent = true
+times = 1
