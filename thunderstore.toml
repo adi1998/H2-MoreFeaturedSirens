@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "zerp"
 name = "MoreFeaturedSirens"
-versionNumber = "1.0.0"
+versionNumber = "1.0.1"
 description = "Allows more than one Siren to be featured in Phase 2."
 websiteUrl = "https://github.com/adi1998/H2-MoreFeaturedSirens"
 containsNsfwContent = false
