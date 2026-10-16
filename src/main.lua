@@ -56,7 +56,6 @@ public.config = config
 local function on_ready()
     -- what to do when we are ready, but not re-do on reload.
     mod = modutil.mod.Mod.Register(_PLUGIN.guid)
-    config.featured_siren_count = math.min(config.featured_siren_count, 4)
     config.featured_siren_count = math.max(config.featured_siren_count, 1)
     import 'ready.lua'
 end

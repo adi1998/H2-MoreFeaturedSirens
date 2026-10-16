@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Disable camera panning for extra Sirens.
+
 ## [1.0.0] - 2026-10-08
 
 - First version of the mod!
